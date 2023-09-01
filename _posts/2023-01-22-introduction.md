@@ -1,5 +1,5 @@
-## Go lanauage introduction
-Go, also known as Golang, is an open-source programming language developed by Google. It is a statically typed, compiled, concurrent language with syntax similar to C, and has high performance and a simple code structure. It is designed for system programming and cloud computing, and supports a concurrent programming model.
+## Introduction
+As a graduate student in computer science from Saint Louis University, I am deeply passionate about the field of computer science and actively seek opportunities for continuous learning and growth. I invite you to visit my personal website, where you can find detailed information about me and insights into some of the projects I have been involved in.
 
 ### Advantages
 
