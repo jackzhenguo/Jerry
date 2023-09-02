@@ -3,7 +3,7 @@ As a graduate student in computer science from Saint Louis University, I am deep
 
 ### Food-Online-Ordering-System
 
-This is a Django-based framework to develop a web page that allows users to order food online and check the status of the order. This tool helps customers to order food better, and businesses can also more easily show customers the food information.
+This is a Django-based framework to develop a web page that allows users to order food online and check the status of the order. This tool helps customers to order food better, and businesses can also more easily show customers the food information. The core technologies and key points of this project include:
 
 - The code 'manage.py' is a key component of the Django project and is used to manage the various tasks and operations of the project. It shows you how to interact with a Django project from the command line.
 - 'admin.py'code is used to customize the look and behavior of Django's admin background. It includes defining custom administrative classes to control the display and permissions of models, as well as registering these models for administration in the administrative background. You also personalize the look of the admin backend by setting titles and taglines.
@@ -19,7 +19,7 @@ This is a Django-based framework to develop a web page that allows users to orde
 
 ### Travel Search System
 
-This is a simple web page based on Django and MySQL, mainly for visitors to find and search tourist attractions, restaurants and hotel information.
+This is a simple web page based on Django and MySQL, mainly for visitors to find and search tourist attractions, restaurants and hotel information. The core technologies and key points of this project include:
 
 - The code 'manage.py' is used to configure environment variables for a Django project and to perform various administrative tasks through command-line administration tools. It also includes some exception handling to provide friendly error messages.
 
@@ -36,55 +36,31 @@ This is a simple web page based on Django and MySQL, mainly for visitors to find
 
 ### Analysis Of US Stock Trading Data
 
-Go is well suited for a variety of applications, including:
+This tool can visually show the highest and lowest prices of stocks in a period of time and the rise and fall range, helping
+investors to better grasp the stock dynamics. The core technologies and key points of this project include:
 
-- Networking and Systems Programming: Go's built-in concurrency support and low-level memory model make it well suited for networking and systems programming tasks, such as building web servers, proxies, and networking tools.
+- The 'stock_ui_v1.py' code is the user interface part of a GUI application created using PyQt5, which contains a variety of Qt widgets and layout managers, as well as some custom visual styles. By using these techniques, you can build interactive desktop applications.
 
-- Cloud and Distributed Systems: Go's support for concurrency and scalability make it a good choice for building cloud-based services and distributed systems.
+- The code 'stock_local_analysis.py' is used to calculate and analyze financial data. The following are the main functions of the code:
+  1. Load financial data into Pandas DataFrame by reading Excel files.
+  2. Calculate and generate summary data, including number of transactions per second, turnover, up and down turnover, VWAP, etc.
+  3. According to the time point T entered by the user and the observation period N seconds, calculate the time points in which the stock price rises and falls by 0.5%, 1%, 1.5% and 2% in the time period after time T, and save the results in an Excel file.
+  4. Calculate the maximum increase, maximum decline and maximum range of the stock price during the observation period, and save the results in an Excel file.
 
-- Containerization and Orchestration: Go is the language behind some popular containerization and orchestration tools such as Docker, Kubernetes, and etcd.
+- The code 'stock_gui.py' uses a stock visualization application created by PyQt5 and Matplotlib. The main function of this application is to visualize stock prices and transaction data, and allow users to calculate the rise and fall.
 
-- Microservices: Go's small runtime and fast performance make it well suited for building microservices, which are small, self-contained services that can be easily deployed and scaled.
+- The code 'business_logic.py' is used to process local stock data and provide some basic data analysis capabilities.
 
-- Network Automation: Go has good support for interfacing with network devices, making it a good choice for building network automation tools.
+- The main function of the 'chart.py' code is to create a dynamic VWAP graph that updates dynamically as data points are added.
 
 - Game development: Go's support for low-level memory manipulation and cross-compiling capabilities make it a good choice for game development
+- The code 'data.py' first uses Pandas to read data from an Excel file named 'data.xlsx'. The first 120 rows of data were then selected from the data read, and the data for the 'HMS', 'pen/second', and 'VWAP' columns were extracted.
+- 'lines.py' This code defines a function create_chart that draws a dynamic double line chart, which can be used to display the volume and VWAP data on the timeline.
 
-It's worth noting that Go's capabilities are not limited to these, it can be used in many other fields, it is a versatile and powerful language that can be used for a variety of tasks.
+
 
 
 
 ### Go run environment
 
-To create a run environment for Go, you will need to install the Go programming language on your computer. Here are the general steps you can follow:
-
-1. Download the Go installer for your operating system from the official Go website (https://golang.org/dl/).
-2. Run the installer and follow the prompts to install Go. The installer will typically install Go to a location such as /usr/local/go on Linux and macOS or c:\Go on Windows.
-3. Once the installation is complete, you'll need to set up some environment variables. For example, on Linux or macOS, you can add the following lines to your shell profile file (such as ~/.bash_profile or ~/.bashrc) to set the GOPATH and PATH environment variables:
-
-```shell
-Copy code
-export GOPATH=$HOME/go
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-```
-
-
-
-### Go hello world
-
-Vim to build a new file: hello_world.go, then at shell window to execute the command: 
-
-```she
-go run hello_world.go
-```
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
 
