@@ -1,91 +1,66 @@
-## Go lanauage introduction
-Go, also known as Golang, is an open-source programming language developed by Google. It is a statically typed, compiled, concurrent language with syntax similar to C, and has high performance and a simple code structure. It is designed for system programming and cloud computing, and supports a concurrent programming model.
+## Introduction
+As a graduate student in computer science from Saint Louis University, I am deeply passionate about the field of computer science and actively seek opportunities for continuous learning and growth. I invite you to visit my personal website, where you can find detailed information about me and insights into some of the projects I have been involved in.
 
-### Advantages
+### Food-Online-Ordering-System
 
-Go has several advantages, including:
+This is a Django-based framework to develop a web page that allows users to order food online and check the status of the order. This tool helps customers to order food better, and businesses can also more easily show customers the food information. The core technologies and key points of this project include:
 
-- Concurrency: Go has built-in concurrency support, making it easy to create programs that can perform multiple tasks simultaneously.
+- The code 'manage.py' is a key component of the Django project and is used to manage the various tasks and operations of the project. It shows you how to interact with a Django project from the command line.
+- 'admin.py'code is used to customize the look and behavior of Django's admin background. It includes defining custom administrative classes to control the display and permissions of models, as well as registering these models for administration in the administrative background. You also personalize the look of the admin backend by setting titles and taglines.
 
-- Simplicity: Go has a simple, easy-to-learn syntax and a small set of keywords, making it easy to read and understand code written in Go.
+- In the 'models.py' file, it defines four model classes: Product, Contact, Orders, and OrderUpdate, which describe the data structures in the application. Allows you to store and retrieve information about products, contact information, orders, and order updates in the database.
+- The code 'urls.py' is the URL configuration in the Django project. These URL configurations define routes for different pages in the application, allowing users to access different functions and views by accessing different urls.
 
-- Performance: Go is designed to be fast, with a low-level memory model that allows for efficient memory usage and a light-weight runtime.
+- The 'views.py' code imports some of the necessary modules and libraries, including model classes, message processing, authentication, payment, and so on. These view functions process requests according to different URL routing, thus achieving different page rendering and interaction functions.
 
-- Scalability: Go is built to scale, making it a good choice for large-scale projects and systems.
+- The code '0001_initial' defines four data models: Contact, Orders, OrderUpdate, and Product. These models define the table structures and fields in the database, and you can use Djangos data migration tool to create database tables and store the data of these models in the database.
+- 'index.html' is a simple welcome page that uses the styles and components provided by Bootstrap to render the content, and includes some JavaScript libraries for interactive page effects. Users can click buttons to access different entry pages, including customer, administrator, and employee entry.
+- The Python code 'Checksum.py' is an example of integration with the Paytm payment gateway to generate and validate checksums for payment requests. Checksum is a technique used to verify data integrity and is often used in payment transactions to ensure the security and integrity of transaction requests.
 
-- Garbage collection: Go has built-in garbage collection, which automatically handles memory management, reducing the chance of memory leaks and other related issues.
+### Travel Search System
 
-- Cross-platform: Go can be compiled to run on multiple platforms, including Windows, Mac, and Linux, making it easy to deploy Go programs on different operating systems.
+This is a simple web page based on Django and MySQL, mainly for visitors to find and search tourist attractions, restaurants and hotel information. The core technologies and key points of this project include:
 
-### Disadvantages
+- The code 'manage.py' is used to configure environment variables for a Django project and to perform various administrative tasks through command-line administration tools. It also includes some exception handling to provide friendly error messages.
 
-Go has some disadvantages that include:
+- The purpose of this '_init_.py' code is to configure pymysql as the engine for the MySQL database in a Django project so that the project can use pymysql to connect to and manipulate the MySQL database.
 
-- Limited OOP Support: Go is not an object-oriented language in the traditional sense. It does not have classes or inheritance, which can make it harder to structure large programs.
+- These settings in 'Settings.py' are the core configuration of a Django project and are used to define the behavior and features of the project.
 
-- No Generics: Go does not have support for generic data types, which can make it harder to write reusable code.
+- The 'models.py' code defines three models, TourPlace, Restaurant, and Hotel. These models are used to represent different entities in the database and to create database tables by inheriting the models.model class.
+- The 'urls.py' code defines the URL routing rules for the Django project. These URL routing rules define the URL paths for the individual pages in the project and the view functions that should be executed when those paths are requested. For example, the '/tourist' path maps requests to a view function named views.tourist. Similarly, the '/restaurant' path maps the request to a view function named views.restaurant
+- The 'views.py' code contains various view functions that handle requests for different pages and retrieve and render data from the database based on the parameters in the request.
+- What '0001_initial.py' does is that when the database migration command is executed, Django creates or updates the database table structure based on the actions in the migration file to reflect the changes in the application model. This keeps the application's database consistent with the model, while allowing database schema evolution.
 
-- Limited Standard Library: While the standard library is good for some basic functionality, it is not as extensive as those of other languages such as Python or Java.
 
-- Lack of third-party libraries: Go has a relatively small ecosystem compared to other languages, which means that there are fewer third-party libraries available to use.
 
-No built-in exception handling: Go does not have built-in exception handling, which can make it harder to handle errors and exceptions in the code.
+### Analysis Of US Stock Trading Data
 
-Not good fit for certain domains: Go is not a good fit for certain domains such as GUI development, Data Science, and Machine Learning.
+This tool can visually show the highest and lowest prices of stocks in a period of time and the rise and fall range, helping
+investors to better grasp the stock dynamics. The core technologies and key points of this project include:
 
-It's worth noting that, despite these disadvantages, Go is still a powerful and efficient language that has a lot to offer, and it's well suited for certain types of projects and use cases.
+- The 'stock_ui_v1.py' code is the user interface part of a GUI application created using PyQt5, which contains a variety of Qt widgets and layout managers, as well as some custom visual styles. By using these techniques, you can build interactive desktop applications.
 
-### Applications
+- The code 'stock_local_analysis.py' is used to calculate and analyze financial data. The following are the main functions of the code:
+  1. Load financial data into Pandas DataFrame by reading Excel files.
+  2. Calculate and generate summary data, including number of transactions per second, turnover, up and down turnover, VWAP, etc.
+  3. According to the time point T entered by the user and the observation period N seconds, calculate the time points in which the stock price rises and falls by 0.5%, 1%, 1.5% and 2% in the time period after time T, and save the results in an Excel file.
+  4. Calculate the maximum increase, maximum decline and maximum range of the stock price during the observation period, and save the results in an Excel file.
 
-Go is well suited for a variety of applications, including:
+- The code 'stock_gui.py' uses a stock visualization application created by PyQt5 and Matplotlib. The main function of this application is to visualize stock prices and transaction data, and allow users to calculate the rise and fall.
 
-- Networking and Systems Programming: Go's built-in concurrency support and low-level memory model make it well suited for networking and systems programming tasks, such as building web servers, proxies, and networking tools.
+- The code 'business_logic.py' is used to process local stock data and provide some basic data analysis capabilities.
 
-- Cloud and Distributed Systems: Go's support for concurrency and scalability make it a good choice for building cloud-based services and distributed systems.
-
-- Containerization and Orchestration: Go is the language behind some popular containerization and orchestration tools such as Docker, Kubernetes, and etcd.
-
-- Microservices: Go's small runtime and fast performance make it well suited for building microservices, which are small, self-contained services that can be easily deployed and scaled.
-
-- Network Automation: Go has good support for interfacing with network devices, making it a good choice for building network automation tools.
+- The main function of the 'chart.py' code is to create a dynamic VWAP graph that updates dynamically as data points are added.
 
 - Game development: Go's support for low-level memory manipulation and cross-compiling capabilities make it a good choice for game development
-
-It's worth noting that Go's capabilities are not limited to these, it can be used in many other fields, it is a versatile and powerful language that can be used for a variety of tasks.
-
-
-
-### Go run environment
-
-To create a run environment for Go, you will need to install the Go programming language on your computer. Here are the general steps you can follow:
-
-1. Download the Go installer for your operating system from the official Go website (https://golang.org/dl/).
-2. Run the installer and follow the prompts to install Go. The installer will typically install Go to a location such as /usr/local/go on Linux and macOS or c:\Go on Windows.
-3. Once the installation is complete, you'll need to set up some environment variables. For example, on Linux or macOS, you can add the following lines to your shell profile file (such as ~/.bash_profile or ~/.bashrc) to set the GOPATH and PATH environment variables:
-
-```shell
-Copy code
-export GOPATH=$HOME/go
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-```
+- The code 'data.py' first uses Pandas to read data from an Excel file named 'data.xlsx'. The first 120 rows of data were then selected from the data read, and the data for the 'HMS', 'pen/second', and 'VWAP' columns were extracted.
+- 'lines.py' This code defines a function create_chart that draws a dynamic double line chart, which can be used to display the volume and VWAP data on the timeline.
 
 
 
-### Go hello world
 
-Vim to build a new file: hello_world.go, then at shell window to execute the command: 
 
-```she
-go run hello_world.go
-```
 
-```go
-package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
 
