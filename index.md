@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
-author: Zhen Guo
+title: Peicheng Gu
+author: Peicheng Gu
 ---
 
