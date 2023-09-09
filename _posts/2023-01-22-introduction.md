@@ -19,7 +19,7 @@ This is a Django-based framework to develop a web page that allows users to orde
 
 ### Travel Search System
 
-This is a simple web page based on Django and MySQL, mainly for visitors to find and search tourist attractions, restaurants and hotel information. The core technologies and key points of this project include:
+This is a web page based on Django and MySQL, mainly for visitors to find and search tourist attractions, restaurants and hotel information. The core technologies and key points of this project include:
 
 - The code 'manage.py' is used to configure environment variables for a Django project and to perform various administrative tasks through command-line administration tools. It also includes some exception handling to provide friendly error messages.
 
