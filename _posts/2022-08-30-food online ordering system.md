@@ -1,5 +1,8 @@
 ## Food Online Ordering System
-url:https://github.com/gpc430/Food-Online-Ordering-System
+
+url:http://www.zglg.work:8001/
+
+git:https://github.com/gpc430/Food-Online-Ordering-System
 
 This is a Django-based framework to develop a web page that allows users to order food online and check the status of the order. This tool helps customers to order food better, and businesses can also more easily show customers the food information. 
 
