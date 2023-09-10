@@ -21,10 +21,10 @@ Similarly, on the restaurant page visitors can see various information about eac
   <img src="/Jerry/assets/images/resturant yemian.png" width="50%"/>
 </p>
 <p align="center">
-  <img src="paixu.png" width="50%"/>
+  <img src="/Jerry/assets/images/paixu.png" width="50%"/>
 </p>
 
 On the hotel page, visitors can also view the various information of all hotels, including price, star rating, number of rooms, number of single rooms, number of double rooms, number of family rooms. Customers can search for the hotel they want to choose according to their own needs.
 <p align="center">
-  <img src="hotel yemian.png" width="50%"/>
+  <img src="/Jerry/assets/images/hotel yemian.png" width="50%"/>
 </p>
