@@ -13,12 +13,12 @@ This is a web page based on Django and MySQL, mainly for visitors to find and se
 
 On the tourist page, visitors can choose different viewing methods, such as displaying all tourists, or displaying tourist information according to different sorting.
 <p align="center">
-  <img src="tourist yemian.png" width="50%"/>
+  <img src="/Jerry/assets/images/tourist yemian.png" width="50%"/>
 </p>
 
 Similarly, on the restaurant page visitors can see various information about each restaurant. And they can have restaurants display prices in ascending or descending order to filter out which one they like.
 <p align="center">
-  <img src="resturant yemian.png" width="50%"/>
+  <img src="/Jerry/assets/images/resturant yemian.png" width="50%"/>
 </p>
 <p align="center">
   <img src="paixu.png" width="50%"/>
