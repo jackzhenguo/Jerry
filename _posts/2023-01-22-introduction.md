@@ -1,8 +1,6 @@
 ## Introduction of Peicheng Gu
 As a graduate student in computer science from Saint Louis University, I am deeply passionate about the field of computer science and actively seek opportunities for continuous learning and growth. I invite you to visit my personal website, where you can find detailed information about me and insights into some of the projects I have been involved in.
 
-test[CV](/Jerry/assets/Jerry_Resume.pdf)
-
 ### Food-Online-Ordering-System
 
 This is a Django-based framework to develop a web page that allows users to order food online and check the status of the order. This tool helps customers to order food better, and businesses can also more easily show customers the food information. The core technologies and key points of this project include:
