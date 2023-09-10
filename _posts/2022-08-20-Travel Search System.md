@@ -6,7 +6,7 @@ git: [source code](https://github.com/gpc430/Travel-Search-System)
 
 This is a web page based on Django and MySQL, mainly for visitors to find and search tourist attractions, restaurants and hotel information. On the main page there are three button options, visitors can choose to view tourist, restaurant and hotel three options.
 <p align="center">
-   <img src="./assets/images/zhuye.png" width="50%"/>
+   <img src="/Jerry/assets/images/zhuye.png" width="50%"/>
 <!--   <img src="https://github.com/gpc430/Jerry/blob/main/assets/images/WechatIMG27.jpg" width="20%" /> -->
 <!--    <img src="https://img-blog.csdnimg.cn/img_convert/05a39d8633dcb818dd17bdbf0ceb8ea7.jpeg"/> -->
 </p>
